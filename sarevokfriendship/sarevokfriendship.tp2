@@ -27,7 +27,7 @@ ALWAYS
 
 	/* Converts tra files to UTF-8 */
 	// No exception, everything needs to be converted
-	ACTION_DEFINE_ARRAY SarFrienoconvert BEGIN END
+	ACTION_DEFINE_ARRAY SarFrienoconvert BEGIN install END
 
 	// any tra files used in LANGUAGE need to be reloaded after UTF-8 conversion
 	ACTION_DEFINE_ARRAY SarFriereload BEGIN setup END
@@ -57,7 +57,7 @@ LANGUAGE ~Polish (translation by Astharoshe, member of SoM)~
 
 LANGUAGE ~Chinese (translation by Merzbau)~
          ~schinese~
-         ~sarevokfriendship/translations/schinese/setup.tra~
+         ~sarevokfriendship/translations/schinese/install.tra~
 
 LANGUAGE ~Russian (translation by Arkie)~
 		 ~russian~
